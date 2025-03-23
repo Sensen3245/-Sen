@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Crash - 挑战性的3D叠塔游戏 | GamePrince</title>
+    <meta name="description" content="体验刺激的Tower Crash 3D游戏，在GamePrince平台上免费玩这款好玩的叠塔挑战游戏。">
+    <link rel="canonical" href="https://gameprince.online">
+    <style>
+        :root {
+            --primary-color: #0071e3;
+            --secondary-color: #333;
+            --background-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --light-gray: #f5f5f7;
+            --border-color: #d2d2d7;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 20px 0;
+            background-color: var(--light-gray);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 40px 0;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .intro {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .game-container {
+            margin: 30px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        
+        .game-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .game-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .game-info {
+            padding: 40px 20px;
+            background-color: white;
+        }
+        
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature {
+            background-color: var(--light-gray);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .feature h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #0062cc;
+        }
+        
+        footer {
+            background-color: var(--light-gray);
+            padding: 30px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .copyright {
+            font-size: 14px;
+            color: #86868b;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            .intro {
+                font-size: 20px;
+            }
+            
+            .game-container {
+                margin: 20px 0;
+            }
+            
+            .feature {
+                padding: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+            
+            .intro {
+                font-size: 18px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="https://gameprince.online" class="logo">GamePrince</a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h1>Tower Crash 3D</h1>
+            <p class="intro">挑战你的手眼协调能力，在这款刺激的3D叠塔游戏中创造新纪录！</p>
+            
+            <div class="game-container">
+                <div class="game-wrapper">
+                    <iframe src="https://play.famobi.com/tower-crash-3d" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="game-info">
+                <h2>游戏介绍</h2>
+                <p>Tower Crash 3D是一款令人上瘾的叠塔游戏，考验你的反应能力和专注力。游戏中，你需要控制移动的积木，在适当的时机放置它们，以构建尽可能高的塔。每一层的准确度都会影响下一层的难度，让简单的玩法变得极具挑战性。</p>
+                
+                <h2>游戏特点</h2>
+                <div class="features">
+                    <div class="feature">
+                        <h3>简单易上手</h3>
+                        <p>简单的操作方式，只需点击屏幕即可放置积木，适合所有年龄段的玩家。</p>
+                    </div>
+                    <div class="feature">
+                        <h3>3D视觉效果</h3>
+                        <p>精美的3D图形和流畅的动画，带来沉浸式的游戏体验。</p>
+                    </div>
+                    <div class="feature">
+                        <h3>挑战无限</h3>
+                        <p>随着塔越建越高，游戏难度逐渐增加，让你永远保持挑战性。</p>
+                    </div>
+                </div>
+                
+                <h2>如何玩</h2>
+                <p>游戏的目标是建造尽可能高的塔。每一块积木都会在空中移动，你需要在正确的时刻点击屏幕，使积木落在下面的塔上。如果积木部分偏离了塔，那么偏离的部分会掉落，你的塔基会变小。继续堆叠积木，看看你能建造多高的塔！</p>
+                
+                <h2>游戏技巧</h2>
+                <p>保持耐心和专注是成功的关键。随着游戏的进行，积木移动速度会变快，建议在较低的层数时尽量保持精确，以便在更高层数时有更多的犯错空间。记住，稳定比速度更重要！</p>
+                
+                <div class="cta">
+                    <a href="#" class="cta-button" onclick="scrollToGame(); return false;">立即开始游戏</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p class="copyright">© 2024 GamePrince.online - 所有权利保留</p>
+        </div>
+    </footer>
+    
+    <script>
+        function scrollToGame() {
+            const gameContainer = document.querySelector('.game-container');
+            gameContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html> 
